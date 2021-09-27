@@ -21,6 +21,7 @@ const AssignmentCardV2 = ({
   let due_days = Math.round((new Date(due_date) - new Date())/(1000*3600*24));
   due_days = due_days > 0 ?due_days:0;
   const days = due_days<=1?'Day':'Days';
+  
   const num_days = due_days + ' '+ days + ' remaining';
   return (
     <Badge badgeContent = {num_days} color="error" anchorOrigin={{vertical: 'top', horizontal: 'right'}}>
