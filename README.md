@@ -1,4 +1,4 @@
-# Anubis LMS
+# Anubis LMS 
 
 <p align="center">
   <a href="https://anubis.osiris.services/">
